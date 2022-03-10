@@ -1,0 +1,235 @@
+@import 'https://fonts.googleapis.com/css?family=Quicksand';
+body {
+  background-color:seashell;
+}
+
+.container {
+/*  
+  background-color: pink;
+  height:1500px; testing*/
+  margin: auto;
+  width: 90%;
+}
+/*nav bar*/
+.navbar {
+  position:static;
+  z-index: 100;
+  overflow: hidden;
+  margin: auto;
+/*   background-color:	#ecc9cd; */
+  width: 100%;
+  left:0;
+  top:0;
+	
+}
+
+.navbar li.logo,
+.navbar li.navbar_items {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar li a {
+  font-family: Quicksand;
+  font-size: 1.5em;
+  color: grey;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.navbar li.navbar_items a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  /*   padding-bottom: 5px; */
+}
+
+.navbar li.icon {
+  display: none;
+	
+}
+
+.div_navbar_items {
+  float: right;
+  padding-right:1%;
+}
+
+.intro{
+  position: relative;
+  top: 100px;
+  text-align:center;
+}
+
+h1 {
+  color:black;
+	text-align: left;
+  font-size: 36px;
+  font-family: Quicksand;
+}
+h2 {
+  color:grey;
+	text-align: left;
+  font-size: 20px;
+  font-family: Quicksand;
+}
+
+p {
+  color:black;
+  font-size: 30px;
+  font-family: Quicksand;
+	text-align: left;
+}
+
+/* ----------------------- */
+
+
+/* responsive navigation bar: CSS */
+
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("navbar_name"). Show the list item that contains the link to open and close the topnav (li.icon) */
+
+@media screen and (max-width : 695px ){
+  .navbar li.navbar_items {
+    display: none;
+  }
+  .navbar li.icon {
+    float: right;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+}
+
+
+/* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens */
+
+@media screen and (max-width : 795px ){
+  .navbar.responsive {
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+	  opacity: 0.94;
+    transition: background-color .6s;
+	  
+  }
+  
+  .navbar.responsive li.logo {
+    floatL: left;
+    display: block;
+  }
+  .navbar.responsive .div_navbar_items {
+    float: none;
+    padding-right:0;
+  }
+  
+  .navbar.responsive li.navbar_items {
+    display: block;
+    padding: 10px;
+    font-size: 25px;
+  }
+  .navbar.responsive li.navbar_items a {
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar.responsive li.navbar_items a:hover{
+    color:white;
+    border-bottom-color: transparent;
+    
+  }
+  
+}
+
+/* end of navgation bar styling - responsive */
+
+@media (max-width: 1000px){
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Quicksand;
+  color: #666;
+}
+
+
+/* STRUCTURE */
+.wrapper {
+  padding: 5px;
+  max-width: 100%;
+  width: 95%;
+  margin: 20px auto;
+}
+
+img {
+  border-radius: 3%;
+}
+
+header {
+  padding: 0 15px;
+	text-align: center;
+	
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0px 0;
+}
+
+.column {
+/*  flex: 1;*/
+/*  border: 1px solid gray;*/
+  margin: 10px;
+  padding: 0px;
+
+
+}
+.column:first-child {
+  margin-left: 0;
+}
+.column:last-child {
+  margin-right: 0;
+}
+
+footer {
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .columns .column {
+    margin-bottom: 5px;
+    flex-basis: 50%;
+  }
+  .columns .column:nth-last-child(2) {
+    margin-right: 0;
+  }
+  .columns .column:last-child {
+    flex-basis: 100%;
+    margin: 0;
+  }
+}
+@media screen and (max-width : 700px ){
+  .columns .column {
+    flex-basis: 50%;
+    margin: 0 0 5px 0;
+  }
+}
+
+.copyright {
+   left: 0;
+   bottom: 0;
+   color: darkgrey;
+   text-align: right;
+   padding: 0px;
+   font-size:15px;
+   margin-bottom: auto;
+}
