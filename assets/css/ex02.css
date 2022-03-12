@@ -1,0 +1,109 @@
+/*  EX02_starter.css   (2022)  */
+
+/* Sets the max width of the entire page*/
+body
+{
+    max-width: 750px;
+    margin: 0;
+        background-image: url("../images/side.jpg");
+        background-repeat: repeat-y;
+}
+
+header
+{
+margin-left:40px;
+}
+
+/* rightside*/
+/* Used for the div that contains the 4 square div's */
+#rightside
+{
+    float: left;
+    max-width: 500px;
+    margin-left:165px;
+	
+/*	Testing width within div*/
+/*	border:solid;*/
+}
+
+
+.DueDate  
+{
+  /*  font-family: monospace; */
+    font-family: 'Dancing Script', cursive;
+    font-size:1.5em;
+}
+
+
+/*Box Settings for Content*/
+.Boxes
+{
+    display: inline-block;
+    position: relative;
+    margin: 2% 2% 4% 2%;
+    height: 180px;
+    width: 180px;
+    border-radius: 10%;
+    background-color:#0C4C08;
+    transition: all 1s;
+}
+
+.Boxes:hover
+{
+    background-color:#D19ADB;
+    cursor:pointer;
+    border: 4px solid #7B00A3;
+}
+
+
+.Asterisk 
+{
+	font-size: 120px;
+	color:#21AF00;
+	text-shadow: 3px 3px yellow;
+	position:relative;
+	left:6%;
+	top:4%;
+	font-weight: bold;
+}
+
+.Flower
+{
+	font-size:30px;
+	font-family:"Arial";
+	font-weight: bold;
+	color:#E66500;
+	position:absolute;
+	left: 23%;
+	top: 48%;
+
+}
+
+
+/*width is less than 500 and greater than 400*/
+/*keep an image but groupings are vertical*/
+@media screen and (max-width:450px)
+{
+	/*	Keep header*/
+/*
+    #header
+	{
+        display:none;
+    }
+*/
+}
+
+/*width is less than 400px but greater than 350px*/
+/*Keep vertical, but the image diasppears*/
+@media screen and (max-width:350px)
+{
+    body
+	{
+        background-image: none;
+    }
+
+    #rightside
+	{
+    	 margin-left:15px;
+    }
+}
