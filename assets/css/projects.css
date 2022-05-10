@@ -22,6 +22,7 @@ img{
     height: auto;
 }
 
+
 /* header */
 
 .header {
@@ -226,7 +227,8 @@ p {
 /*	text-align: left;*/
 	margin-bottom: 50px;
     text-align: left;
-    padding: 0px;
+    padding-left: 60px;
+	padding-right: 60px;
     
 }
 
@@ -369,7 +371,7 @@ p {
 }
 */
 
-  }
+  
 
 /*
     @media only screen and (max-width : 800px){
@@ -382,7 +384,7 @@ p {
 }
 */
 
-  }
+  
 
 h3{
 	font-size:1.5em;
@@ -538,3 +540,35 @@ footer {
 	font-size:1em;
 	margin-bottom: auto;
 }
+
+
+img.popsign_screenshots .popsign_new {
+	height: auto;
+	width: 50%;
+}
+
+
+img.cg_notes{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+
+}
+
+img.cg_wireframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+
+}
+
+img.cg_final{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+
+}
+
