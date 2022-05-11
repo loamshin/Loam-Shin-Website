@@ -572,3 +572,9 @@ img.cg_final{
 
 }
 
+
+a.print_resume{
+	display:block;
+	text-align:center;
+	font-size: 130%;
+}
