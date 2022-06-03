@@ -582,18 +582,9 @@ a.print_resume{
 
 
 
-
-/* * { box-sizing: border-box; 
-} 
-
-body { 
-  font-family: 'Open Sans', sans-serif;
-  color: #666;
-} */
-
 /* STRUCTURE */
 
-.wrapper {
+/* .wrapper {
 	padding: 5px;
 	max-width: 960px;
 	width: 95%;
@@ -612,11 +603,10 @@ header {
 
 .column {
 	flex: 1;
-	/* border: 1px solid gray; */
+
 	margin: 2px;
 	padding: 10px;
-	/* &:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; } */
+
 	
 }
 
@@ -629,13 +619,7 @@ footer {
   .columns .column {
 	margin-bottom: 5px;
     flex-basis: 40%;
-		/* &:nth-last-child(2) {
-			margin-right: 0;
-		}
-		&:last-child {
-			flex-basis: 100%;
-			margin: 0;
-		} */
+
 	}
 }
 
@@ -644,4 +628,4 @@ footer {
 		flex-basis: 100%;
 		margin: 0 0 5px 0;
 	}
-}
+} */
