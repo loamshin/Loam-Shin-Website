@@ -104,9 +104,9 @@ img {
   background-color: #fff;
   /*	background-color: black;*/
 
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6);
+  /* box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6); */
   position: fixed;
-  width: 90%;
+  width: 100%;
   z-index: 3;
   top: 0;
 }
@@ -126,7 +126,7 @@ img {
   /*	border-right: 1px solid #f4f4f4;*/
   text-decoration: none;
   /*	color:black;*/
-  color: black;
+  /* color: black; */
 }
 
 .header li a:hover,

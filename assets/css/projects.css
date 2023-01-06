@@ -29,9 +29,9 @@ img{
 	background-color: #fff;
 /*	background-color: black;*/
 
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.6);
+    /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.6); */
 	position:fixed;
-	width: 90%;
+	width: 100%;
 	z-index: 3;
 	top: 0;
 
@@ -289,23 +289,6 @@ p {
 
 }
 
-/*
-.grid-container2 > div {
-	background-color: #FFD591;
-	text-align: center;
-	padding: 20px 0;
-	font-size: 1em;
-}
-*/
-
-/*
-.grid-container3 > div {
-	background-color: #FFD591;
-	text-align: center;
-	padding: 20px 0;
-	font-size: 1em;
-}
-*/
 
   
   @media only screen and (max-width : 1000px){
@@ -320,31 +303,7 @@ p {
 }
   }
 
-/*
-  @media only screen and (max-width : 1000px){
-    .grid-container2 {
-	display: grid;
-	grid-template-areas:
-	'header menu';
-	grid-gap: 10px;
 
-}
-  }
-*/
-
-/*
-  @media only screen and (max-width : 1000px){
-    .grid-container3 {
-	display: grid;
-	grid-template-areas:
-	'header'
-        'main'
-        'menu';
-	grid-gap: 10px;
-
-}
-  }
-*/
 
     @media only screen and (max-width : 800px){
       .grid-container {
@@ -360,30 +319,7 @@ p {
 
   }
 
-/*
-    @media only screen and (max-width : 800px){
-      .grid-container2 {
-	display: grid;
-	grid-template-areas:
-	'header'
-	'menu';
-	grid-gap: 10px;
 
-}
-*/
-
-  
-
-/*
-    @media only screen and (max-width : 800px){
-      .grid-container3 {
-	display: grid;
-	grid-template-areas:
-	'header';
-	grid-gap: 10px;
-
-}
-*/
 
   
 
@@ -426,19 +362,7 @@ h4 {
 	font-family: Quicksand;
 	margin-bottom: -10px;
 }
-/*
-.list li{
-    align-content: center;
-	text-align: center;
-	color:black;
-	font-size: 1em;
-	margin-bottom: -10px;
-    list-style-type: none;
-    display: table; 
-    margin: 0 auto;
-    list-style: inside;
-}
-*/
+
 div.list
 {
     width: 100%;
@@ -580,56 +504,6 @@ a.print_resume{
 	font-size: 130%;
 }
 
-
-
-
-/* STRUCTURE */
-
-/* .wrapper {
-	padding: 5px;
-	max-width: 960px;
-	width: 95%;
-	margin: 20px auto;
-}
-header {
-	padding: 0 15px;
-}
-
-.columns {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	margin: 5px 0;
-}
-
-.column {
-	flex: 1;
-
-	margin: 2px;
-	padding: 10px;
-
-	
-}
-
-footer {
-	padding: 0 15px;
-}
-
-
-@media screen and (max-width: 980px) {
-  .columns .column {
-	margin-bottom: 5px;
-    flex-basis: 40%;
-
-	}
-}
-
-@media screen and (max-width: 680px) {
-	.columns .column {
-		flex-basis: 100%;
-		margin: 0 0 5px 0;
-	}
-} */
 
 
 .card {
