@@ -157,7 +157,7 @@ img {
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
+  /* float: right; */
   padding: 28px 20px;
   position: relative;
   user-select: none;
@@ -502,7 +502,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #cd921e;
+  color: rgb(165, 165, 165);
 }
 
 /* mouse over link */
@@ -512,7 +512,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #cd921e;
+  color: rgb(165, 165, 165);
 }
 
 .copyright {
