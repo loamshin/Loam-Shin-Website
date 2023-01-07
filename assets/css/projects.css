@@ -3,7 +3,7 @@
 
 
 body {
-	background-color:white;
+	background-color:rgb(255, 248, 237);
 	margin: 0;
 	font-family: Quicksand;
 /*  background-color: #f4f4f4;*/
@@ -26,10 +26,8 @@ img{
 /* header */
 
 .header {
-	background-color: #fff;
-/*	background-color: black;*/
-
-    /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.6); */
+	background-color: rgb(249, 235, 213);
+	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6);
 	position:fixed;
 	width: 100%;
 	z-index: 3;
@@ -44,7 +42,8 @@ img{
 	padding: 0;
 	list-style: none;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: rgb(249, 235, 213);
+	
 /*    background-color: black;*/
 
 }
@@ -55,12 +54,12 @@ img{
 /*	border-right: 1px solid #f4f4f4;*/
 	text-decoration: none;
 /*	color:black;*/
-        color: black;
+        /* color: black; */
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-	background-color: #f4f4f4;
+	/* background-color: #f4f4f4; */
 	color:black;
 	
 }
@@ -257,27 +256,6 @@ p {
 
 }
 
-/*
-.grid-container2 {
-	display: grid;
-	grid-template-areas:
-    'header main'
-	grid-gap: 10px;
-	padding: 30px;
-}
-*/
-
-/*
-.grid-container3 {
-	display: grid;
-	grid-template-areas:
-	'header';
-	grid-gap: 10px;
-	  background-color: #2196F3;
-	padding: 30px;
-}
-*/
-
 
 
 .grid-container > div {
@@ -288,8 +266,6 @@ p {
     
 
 }
-
-
   
   @media only screen and (max-width : 1000px){
     .grid-container .p{
