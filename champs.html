@@ -6,27 +6,93 @@
 <!--	/* Complete Viewport Command */ -->
 <title>Craigslist Redesign</title>
 <link rel="stylesheet" href="assets/css/projects.css"> 
+<style>
+
+
+h2{
+  font-size: 30px;;
+  text-align: center;
+  color:rgb(220, 105, 105);
+  margin-top: 20px;
+}
+
+h3{
+  /* font-size: 10px;; */
+  /* text-align: center; */
+  color:rgb(184, 137, 35)
+
+}
+
+h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+
+
+img {
+    max-width: 100%;
+    /* height: auto; */
+    /* margin-top: 20px; */
+
+}
+
+.center {
+  padding-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.page{
+    margin: 0 15% 0 15%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  
+
+  }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+.container{
+  text-align: left;
+  font-size: 1em;
+  /* background-color: lightgrey; */
+  width: auto;
+  /* border: 5px solid orange; */
+  padding: 5px;
+  margin: 20px;
+
+}
+
+
+
+.video-center{
+  text-align: center;
+
+}
+
+</style>
 </head>
 <body>
-	<header class="header">
-        <a href="index.html" class="logo">loam shin</a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />	
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>	
-            <ul class="menu">		
-<!--	 			<li><a href="index.html">home</a></li>-->
-              <li><a href="index.html">work</a></li>
-              <li><a href="resume.html">resume</a></li>
-              <li><a href="about.html">connect</a></li>
-              <!-- <li><a href="#connect">connect</a></li> -->
-            </ul>
-  </header>
-
-<section class="container">
-    <!--     nav bar -->
-
-
-
-    <!--         closing navbar  -->
+    <header class="header">
+        <a href="index.html" class="logo">
+          <img class= "logoImg" src="assets/images/LS logo.png"></a>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />	
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>	
+              <ul class="menu">		
+                <li><a href="work.html">work</a></li>
+                <li><a href="resume.html">resume</a></li>
+                <li><a href="about.html">connect</a></li>
+              </ul>
+    </header>
 
     <div style="width:80%; margin:0 auto;">
 		<div>
@@ -34,111 +100,286 @@
 	<div>
 
 		
-    	<section class="intro">	
-	
-      		<h2> Craigslist Redesign</h2>
-	  		<h3>THE BRIEF:</h3>
-	  			<p>Craigslist is one of the most used classified advertisement websites that are designed to help users in buying and selling products. Just only that, but it also allows users to search for jobs and connect with others through discussion forums and services.
-
-&nbsp;&nbsp; </p>
-  </section>
-	 </div> 
-	    
-
-	  
-	
-		
-	    <!--       closing home -->
-		<div id = "projects"></div>
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-	<header>
-		<p>&nbsp;</p>
-	</header>
-
-<!-- Grid -->
-<!--	<h4>My projects</h4>-->
-		<div class="grid-container">
-			<div>Goal:<p>Craigslist is one of the most controversial web designs, and it has been used and redesigned by many designers. While other well-known websites keep updating their UX/UI, Craigslist has not changed much from day one. It is resistant to any change, but it still works surprisingly. Its simple design allows anyone to use it without explanation, assistance, or feeling defeated. It keeps the focus on the tasks such as buying and selling.
-Because it has achieved its purpose, I decided that I kept the iconic elements, but gave it an upgrade on the layout.
-The goal of this process was to focus on improving its visual design, usability, and organization. 
-                </p></div>
-			<div><img src="assets/images/craigslistwebsite.png"></div>
-            
-            
-    </div>
-    <div>
-        <h3>PERSONAL RESEARCH:</h3>
+        <img src="./assets/images/champs.png" alt="champs logo" class="center" />
+          <div class="container" id="overview">
             <p>
-To get started, I wanted to get some initial insight into how users may use this platform so that I could understand the functions better. While I was looking around, there was one prominent part that I could break it down into a few main things such as.
-                &nbsp;&nbsp; </p>
-        <div class = "list">
-                <ul>
-<li>Buying and selling things (clothing, furniture, electronics, housing, etc)</li>
-<li>Conducting business (job search, advertising, etc)</li>
-<li>Connecting with others (discussion forums, activities, volunteering, etc)</li>
-                    </ul>
-            </div>
+              95% of deaf children are born to hearing parents and most of them do
+              not know sign language. No early exposure to sign language prevents
+              deaf children from receiving accessible language input. Having no
+              foundation from an early age reduces the chance of building creative
+              thinking, better problem solving skills, greater academic achievement,
+              etc. </p>
+              
+              <h2>Goal:</h2>
+            <p>
+              Our goal was to create a application for deaf children with hearing parents.
+              To improve communication between parents and their deaf children, 
+              we sought a solution that will integrate the 
+              gameplay experience with sign language. 
+              It would have features that motivate children to learn 
+              and enjoy the playing experience. Not just learning, 
+              children will have an opportunity to take on a leadership 
+              role as they teach their parent sign language. 
+            </p>
 
-    
+        </div>
+        </div>
+
+    <div class="mytime"><b>ROLE: Co-researcher, co-tester, co-designer<br>DURATION: 3 months</b></div>
+
+
+    <div class="container" id="user_research">
+        <h3>User Research</h3>
+        <p>
+            Before we got into research, we knew we wanted to do something with 
+            accessiblity for deaf children. Since we have witnessed communication
+            barriers that deaf children faced with their hearing parents, we wanted
+            to take further research into educational games that most children benefit. 
+            Based on our findings, there were not that many games that use
+            American Sign Language (ASL). We began to explore educational games that most
+            children would use at home or school. As we explored, we found that many apps
+            did not offer any languages other than English. We noticed those apps were not
+            accessible for children with their parents who speak other languages. So 
+            from there, we want to create something that provides full access for deaf children.
+            That includes providing ASL video clips or any ASL centric content.
+        </p>
+        <h3>Learning plan:</h3>
+        <img src="/assets/images/learningplan.png" alt="learning plan"/>
+
     </div>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-    <div>
-        <h3>DESIGN NOTES:</h3>
-        <div><img src="assets/images/craigslistnotes.png"></div>
-    </div>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
     
-    <div>
-        <h3>WIREFRAMES:</h3>
-        <P>
-        I created three different general layouts. While keeping Craigslist's brand identity in mind, I knew that I had to keep the categorial lists. However, in the first wireframe, I was playing around with photos for an easy identifier and access. In the second and last wireframes, I decided to go back and keep the lists but shortened the margins between lists.</P>
-        
-        <h4>Original features to keep:</h4>
-        <div class = "list">
-        <ul>
-            <li>Categorial lists</li>
-            <li>Logo</li>
-            <li>Calendar</li>
-            </ul>
+    <div class="container_low" id="low_fi">
+        <h2>Low Fidelity</h2>
+
+        <div class="row">
+            <div class="column">
+                <h4>Our user persona</h4>
+                <img src="./assets/images/persona.png" alt="user persona"/>
             </div>
-    
-        <h4>Features to change:</h4>
-        <div class = "list">
-        <ul>
-            <li>aesthetics/color pleasant to the eyes.</li>
-            <li>calendar features</li>
-            <li>search bar</li>
-            <li>compact design by placing a sidebar in the footer</li>
-            </ul>
-            </div>
-        
-        <div><img src="assets/images/craigslistwireframe.png"></div>
-    
-    </div>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-    <div>
-        <h3>FINAL DESIGN:</h3>
-        <div><img src="assets/images/craigslistfinalwebsite.png"></div>
-        <p>For the final design, I made some changes that are visibly different from the original Craigslist.<br><br>
-<b>Pleasant to the eyes.</b><br>
             
-Aesthetics can influence the overall experience of a website. The original website had little to no use of color. While keeping the iconic color of blue, I decided to use a color palette with blues, the website becomes more visually appealing. I also added boxes along the side to create contrast which improves the readability.<br><br>
-<b>Calendar features.</b><br>
-On the original website, the calendar is not labeled which does not provide clarity for the user. I added a month and year as well as arrows that the user can see both previous and future months.<br><br>
-            <b>Search bar.</b><br>
-I believe having a search bar on top of a webpage is an important feature. For those users who can find what they want or need through a simple search without having to look around the website and possibly giving up at the end. I added the distance and the name of city/zip code to enhance usability. <br><br>
-            <b>Compact design by placing a sidebar in the footer.</b><br>
-I found myself looking all over the webpage just to find something that I need. To make it more compact and simple, I decided to put the miscellaneous yet important information such as help or about in the footer. </p>
+            <div class="column">
+                <h4>Moodboard</h4>
+                <img src="./assets/images/moodboard.jpeg" alt="moodboard"/>
+            </div>
+
+
+        </div>
+
+        <h3>Lo-Fi Prototype</h3>
+        <img src="./assets/images/low-fi.jpg" alt="low-fi"/>
+
+        <h3>User testing</h3>
+        <p>
+            <b>Task flow 1:</b> Answering onboarding questions.
+            <br>
+            After creating an account, user was asked to answer
+            these questions so that the data will be sorted based
+            on their preferences.
+
+            <br><br>
+            <b>Task flow 2:</b> Passing all levels in the ABC category.
+            <br>
+            User was asked to pass all levels before moving on to the
+            next level. This part would ask user to copy signs that were
+            shown in video clips.
+        </p>
+
+
+        <h3>Lo-Fi Analysis</h3>
+        <p>
+            The goal for our testing was to get feedback on our user interface. 
+            Whenever they became confused or hesitant to do a task, 
+            we asked questions such as “what do you think you should do next?”, 
+            “what do you think will happen next if you press X?” etc. 
+            We carefully documented the breakdowns of each user while interacting 
+            with the prototypes.
+            <br><br>
+            From the testing, we found many flaws in our app which led users 
+            not to understand what they were supposed to do throughout the test.
+            <br><br>
+            <b>Task flow 1:</b> The biggest issue we found was that they asked if
+            they should set up for themselves or a child. Another one was that they 
+            wanted to be able to customize time pace.
+            <br><br>
+            <b>Task flow 2:</b> When they were on a category page, they expected
+            feedback indicated to them not to click something that was locked or disabled.
+            Another big issue was that they were not sure if they signed right or not
+            there was no feedback.
+
+        </p>
+
+    </div>
+
+        <div class="container" id="hi_fi">
+
+            <h2>High Fidelity</h2>
+            <p>As we transitioned our paper lo-fi prototype to a prototye so that 
+                we could add interactive features for our users. Therefore, this
+                hi-fi prototype was designed on the computer using Figma, as it
+                allows for more flexiblity when we need to update the important
+                features or make any revisions to our designs.<br><br>
+                Since we received feedback on user tasks from our lo-fi prototype, we had to
+                make a lot of revisions including removing some tasks
+                to our hi-fi prototype. After testing, we decided to remove some unecesssary tasks
+                to simplify the overall experience. We realized that our previous tasks
+                caused stress in users. The only two tasks we used for this hi-fi prototype
+                analysis: (1) log in and (2) navigation to the game category. Based on our 
+                testing, we felt these particular tasks were the source to solution to
+                the task flows. We anticipated that these would help us pinpoint the task flow
+                obstacle.
+                <br><br>
+                <b>Task flow 1:</b> Logging in an account
+                <img src="/assets/images/hi-fi-login.png" alt="hi-fi log in flow"/>
+                <img src="/assets/images/login.png" alt="log in"/>
+                <br>
+                The purpose of this was to build relationship with users and allow them to make
+                customizations to their preferences.
+                <ul>
+                    <li>
+                        Enter your username, password, and phone number: if user already
+                        had an account, they would click "have an account?" phone number
+                        was for a parent, so they could get a code once the user completed
+                        a level and wanted to collaborate.
+                    </li>
+                    <li>
+                        Daily goal: once they click "create account", they would be 
+                        prompted to select which time that fits them best.
+                    </li>
+                    <li>
+                        Allow notifications: push notifications alert users to get 
+                        in real-time from an app. They would have to opt for alerts
+                        getting daily reminders and when new games come in.
+                    </li>
+                </ul>
+
+                <br><br>
+                <b>Task flow 2:</b> Navigating to the game category
+                <img src="/assets/images/hi-fi-gameplay.png" alt="hi-fi gameplay flow"/>
+                <p>
+                    <i>Tutorial:</i>
+                    <img src="/assets/images/tutorial.png" alt="tutorial"/>
+                    The purpose of this was to make sure users feel comfortable
+                    and ready before jumping in the real game. This would teach
+                    users how to play the game especially when it had sign
+                    recognition which may be new to many.
+                </p>
+                <!-- <img src="/assets/images/tutorial.png" alt="tutorial"/> -->
+                <p>
+                    <i>Real game playing:</i>
+                    <img src="/assets/images/realgame.png" alt="real game"/>
+                    This is when users got to play the actual games. The game process
+                    was similar to the tutorial part, but it did not include instructions.
+                    In this part, we included a reward system (rewarding indicator and level completed)
+                    and visual map of levels.
+                </p>
+                <!-- <img src="/assets/images/realgame.png" alt="real game"/> -->
+                <br>
+                <div class="video-center">
+                    <h4>See Hi-Fi prototype in action</h4>
+                <video width="420" height="500" controls>
+                    <source src="/assets/images/video.mov" >
+                
+                  </video>
+                </div>
+
+            </p>
+            <h3>User testing</h3>
+            <p>
+                Our initial audience would be deaf children. But since we are college
+                students with no transportation and were not able to see children off
+                campus, we recruited 10 other college students who were friends or acquainted
+                with us. Before we started usability tests, we explained this application and 
+                its goal to the participants. We emphasized that this was a prototype with 
+                interactive features, not an actual application. After having them doing
+                tasks, we asked them to complete the rating. We used the ratings to generate
+                severity ratings to measure the overall satisfaction experience with the interface 
+                and application itself.
+            
+            </p>
+            <b>Raw data</b> 
+            <img src="/assets/images/rawdata.png" alt="raw data"/>
+            <br><br>
+            <div class="row">
+                <div class="column">
+                    <b>Satisfaction rating</b> 
+                    <img src="/assets/images/rating.png" alt="rating"/>
+                    </div>
+                  <div class="column">
+                    <b>Severity rating</b> 
+                    <img src="/assets/images/severity.png" alt="severity"/>
+                  </div>
+            </div>
+    
+
+            <h3>Hi-Fi Analysis</h3>
+            <p>
+                The observed results varied based on how the participants got confused
+                by the instruction, picking unlocked categories, and signing the right
+                word. 75% of participants clicked the locked button even though it was 
+                darker than the unlocked button. For the log in, all the participants
+                seemed to understand what to do when logging in/creating an account. 
+                Overall, the majority of participants enjoyed the concept and thought
+                it was a good idea to have an application to help hearing parents and
+                deaf children improve their relationship with each other.
+                <br><br>
+                <h3>Possible enhancements:</h3>
+                Based on feedback, there were some issues that participants experienced
+                and we followed up with some possible solutions.
+                <ul>
+                    <li>
+                        <span style="color:red"><i>Issue: </i></span> When signed in, the participant did not understand
+                        the purpose of having a daily goal.
+                    </li>
+                    <li>
+                        <span style="color:green"><i>Solution 1:</i></span> Add "information" with an icon indicating to users 
+                        that it is for more information about a daily goal.
+                    </li>
+                    <li>
+                      <span style="color:green"><i>Solution 2:</i></span> Possibly delete this task from the user flow 
+                        since it is not necessary for users to customize their pace
+                        preferences until they make changes through settings.
+                    </li>
+
+                    <br><br>
+
+                    <li>
+                      <span style="color:red"><i>Issue:</i></span> The border color was too thin and hard to see 
+                        (incorrect/correct). The background color 
+                        (i.e., didn't work well with the thin border) 
+                        might have made it harder for users to see.
+
+                    </li>
+                    <li>
+                      <span style="color:green"><i>Solution 1:</i></span> Need to add more weight to the border.
+                    </li>
+
+                </ul>
+            </p>
+
+        </div>
         
     </div>
 
+    <div class="container" id="reflection">
+        <h2>Reflection</h2>
+        <p>
+            In summary, we were able to take away valuable information
+            regarding the design and the interface itself. From the testing,
+            we were able to introduce our champs! application to the participants.
+            Unexpectedly, we were able to collect all of the participants' opinions,
+            feedback, and comments. The results from usability testing showed that 
+            there were some particular tasks the majority of the participants found 
+            confusing. We also learned that this application was not as intuitive as 
+            we thought it would be. If given the opportunity and more time, we would 
+            conduct more intensive testing and gather data to help us pinpoint and 
+            tackle the problems that we faced recently.
+
+        </p>
 
 
-	
-		<!-- <footer>
-			<p class = "copyright">Loam Shin 2022</p>
-		</footer> -->
+
+    </div>
+
 </section>
 </body>
 </html>
