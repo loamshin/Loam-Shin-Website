@@ -1,146 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<!--	/* Complete Viewport Command */ -->
-<title>My resume</title>
-<link rel="stylesheet" href="assets/css/projects.css"> 
-</head>
-<body>
-	<header class="header">
-		<a href="index.html" class="logo">
-			<img class= "logoImg" src="assets/images/LS logo.png"></a>
-  		<input class="menu-btn" type="checkbox" id="menu-btn" />	
-  		<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>	
-  			<ul class="menu">		
-<!--	 			<li><a href="index.html">home</a></li>-->
-                <li><a href="work.html">work</a></li>
-                <li><a href="resume.html">resume</a></li>
-                <li><a href="about.html">connect</a></li>
-                <!-- <li><a href="#connect">connect</a></li> -->
-  			</ul>
-	</header>
-<section class="container">
-    <!--     nav bar -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--	/* Complete Viewport Command */ -->
+    <title>My resume</title>
+    <link rel="stylesheet" href="assets/css/projects.css" />
+    <style>
+/*Desktop Query*/
+@media only screen and (min-width: 768px) {
+    .resumeImg {
+    /* background: black; */
+    width:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow: inset; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+}
 
 
+/*Tablet Query*/
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    .resumeImg {
+    /* background: pink; */
+    width:550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-    <!--         closing navbar  -->
-
-    <div style="width:80%; margin:0 auto;">
-		<div>
-	<div>
-
-		
-    	<section class="intro">	
-	
-<!--      		<h2> Resume</h2>-->
-            <div class = "resumeh3">
-                <a class ="print_resume" href="loam-shin-resume.pdf">print pdf</a>
-                <h2>Loam Shin</h2>
-                <!-- <h3>678.562.5442 (VRS)</h3> -->
-                <h3>404.645.3408</h3>
-                <h3>ls8776@rit.edu</h3>
-            </div>
-            
-            <div class = "resumeh4">
-                <h4>OBJECTIVE</h4>
-	  			<p>SSeeking summer 2023 internship in UX Design or Front-End Engineering. 
-                    Aiming to utilize my technical skills in programming, 
-                    design, user experience, and accessibility. 
-                    I’ve also acquired extensive knowledge in consumer 
-                    brand experience and front-end coding.
-
-&nbsp;&nbsp; </p>
-                <h4>EDUCATION</h4>
-            <p>Rochester Institute of Technology<br>
-Bachelor of Science in Human-Centered Computing<br>
-Rochester, NY<br>
-Anticipated graduation: December 2023</p>
-            
-            
-                <h4>SKILLS</h4>
-            <p>Tools: Photoshop, Illustrator, Dreamweaver, XD, Figma, Github<br>
-                Programming: HTML, CSS, JavaScript, Python, Java, PHP<br></p>
-                
-<h4>EXPERIENCE</h4>
+  }
+}
 
 
-            <h6>1-800-Flowers.com,INC (UX/UI Intern) - June 2022 - August 2022</h6>
-            <b>I worked on existing and future UX features to enhance user experience across product brands on a mobile platform, 
-                and the work has been in the realms of interaction design, UI design, and prototyping.</b>
+/*Mobile Query*/
+@media only screen and (max-width: 480px) {
+    .resumeImg {
+    /* background: red; */
+    width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-             <p>• Led user-centered and visual designs for e-commerce product detail pages including 
-                SKUs features which led to an increase in conversion rates and user experience by 10%.<br><br>
+  }
+}
 
-                • Created initiatives to design interactions including upsell SKUs and sub-navigation tabs for UI, 
-                currently under live testing.<br><br>
-                • Worked closely with engineers to deliver and develop UI features around 
-                existing scripts across a mobile platform.<br><br>
+/* button CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  float:right;
 
-                • Responsible for user research, A/B testing, information architecture, 
-                prototyping across a mobile platform.<br><br>
+}
 
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
 
-                
-             </p>
-            <h6>Center Access on Technology at Rochester Institute of Technology (UX Analyst) - January 2022 – May 2022</h6>
-            <b>Key Project: I worked on improving an educational game application, PopSign, in collaboration with Google, 
-                that focuses on teaching American Sign Language to hearing parents with deaf children.
-            </b>
-            <p>• Created mockups and prototypes using Figma to implement game tutorials that enhance 
-                the player experience and improve their understanding of PopSign’s gameplay, 
-                intergrating with Unity platform.<br><br>
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
 
-                • Identified and troubleshoot UX problems and work closely with the engineers 
-                upon the release in March 2022, as well as delivering new UI features using React.<br><br>
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img class="logoImg" src="assets/images/LS logo.png"
+      /></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <!--	 			<li><a href="index.html">home</a></li>-->
+        <li><a href="index.html">work</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="resume.html">resume</a></li>
+        <!-- <li><a href="#connect">connect</a></li> -->
+      </ul>
+    </header>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-                • Conducted user studies including customer requirements and 
-                user behaviors to improve the effectiveness of the game.<br><br>
+    <div style="width: 80%; margin: 0 auto">
+        <a href="/assets/images/loam-shin-resume.pdf" class="button-52" role="button"> Download resume</a>
+        <!-- <button class="button-52" role="button">Download resume</button>  -->
+        <img class="resumeImg" src="/assets/images/loam-shin-resume (1).png">
+    </div>
+    <!-- <p>&nbsp;&nbsp;&nbsp;&nbsp;</p> -->
 
-             
-                
-                
-            <!-- <h6>Atlanta Area School for the Deaf (Paraprofessional) - Decatur, GA - July 2019 - July 2021</h6>
-            <p>Addressed gaps in students’ knowledge and academic performance by working one-on-one with students in subjects including ASL, reading, writing, math, and STEM or in small groups of 2-3 students under the guidance of teachers.<br><br>
-Reinforced fine motor, social, emotional, and listening skills based on students’ abilities and special needs including physical and learning disabilities, behavioral and emotional disorders by providing multi-sensory techniques to instruction.<br><br>
-                Helped teachers with record-keeping such as tracking attendance, daily progress, and student performance for Individualized Education Programs (IEP) and Behavior Intervention Plans (BIP) purposes.<br><br>
-          </p>
-             -->
-            
-                        <h6>Tsays (Graphic designer, Co-manager) - Lawrenceville, GA - June 2016 - December 2018</h6>
-            <p>• Designed 20+ new graphics monthly and a variety of holiday-themed designs 
-                for t-shirts using both Photoshop and Illustrator.<br><br>
-                • Handled 40+ emails daily regarding customer service operations 
-                (sales, orders, and payments).<br><br>
-                • Ensured team members provide daily updates on orders and 
-                complete orders quickly by maintaining effective communication via email and text.<br>
-                <!-- <br>
-                Updated customers on order status to provide high quality service.<br> -->
-                <br>
-                • Increased sales by 5%, sold $20K in 2018 by integrating various types of social media (Instagram and Facebook, new 10+ followers per week) to improve the customer service experience.
-          </p>
-                
-                </div>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-
-&nbsp;&nbsp; 
-  </section>
-	 </div> 
-	    
-
-
-    
-
-
-
-<!--
-	
-		<footer>
-			<p class = "copyright">Loam Shin 2021</p>
-		</footer>
--->
-</section>
-</body>
+  </body>
 </html>

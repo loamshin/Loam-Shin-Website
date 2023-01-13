@@ -22,7 +22,7 @@ p {
 
 .containerIntro {
   color: #e5e5e5;
-  font-size: 30px;
+  font-size: 1.5em;
   text-transform: uppercase;
   height: 10vh;
   display: flex;
@@ -51,10 +51,12 @@ p {
   background-color: black;
 }
 .second div {
-  color: #eba61b;
+  background-color:#ffe54c;
+  color:rgb(51, 51, 51);
 }
 .third div {
-  color: #eba61b;
+  background-color:#ffe54c;
+  color:rgb(51, 51, 51);
 }
 
 @keyframes text-animation {
@@ -102,9 +104,6 @@ img {
 
 .header {
   background-color: white;
-  /*	background-color: black;*/
-
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -299,9 +298,14 @@ h3 {
   font-family: Quicksand;
 }
 
+.containerIntro p {
+  color:grey;
+  font-size: 1.2em;
+}
+
 p {
   color: black;
-  font-size: 1.7em;
+  font-size: 1.6em;
   font-family: Quicksand;
   /*	text-align: left;*/
   margin-bottom: 50px;
