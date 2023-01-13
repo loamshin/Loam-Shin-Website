@@ -30,6 +30,8 @@ p {
   justify-content: center;
 }
 
+
+
 .animation {
   height: 50px;
   overflow: hidden;
@@ -49,14 +51,15 @@ p {
 
 .first div {
   background-color: black;
+  /* font-size: .5em; */
 }
 .second div {
-  background-color:#ffe54c;
-  color:rgb(51, 51, 51);
+  /* background-color:#ffe54c; */
+  color:black;
 }
 .third div {
-  background-color:#ffe54c;
-  color:rgb(51, 51, 51);
+  /* background-color:#ffe54c; */
+  color:black;
 }
 
 @keyframes text-animation {
@@ -259,16 +262,7 @@ img {
   box-shadow: 8px 8px 30px -8px rgba(0, 0, 0, 0.75);
 }
 
-/* .headerIntro {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
-  
-  
-} */
+
 
 .intro {
   /* position:sticky; */
@@ -300,7 +294,7 @@ h3 {
 
 .containerIntro p {
   color:grey;
-  font-size: 1.2em;
+  /* font-size: px; */
 }
 
 p {
