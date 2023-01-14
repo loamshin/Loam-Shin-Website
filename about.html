@@ -1,104 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<!--	/* Complete Viewport Command */ -->
-<title>Craigslist Redesign</title>
-<link rel="stylesheet" href="assets/css/projects.css"> 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--	/* Complete Viewport Command */ -->
+    <title>My resume</title>
+    <link rel="stylesheet" href="assets/css/projects.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-</head>
-<body>
-	<header class="header">
-		<a href="index.html" class="logo">
-			<img class= "logoImg" src="assets/images/LS logo.png"></a>
-  		<input class="menu-btn" type="checkbox" id="menu-btn" />	
-  		<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>	
-  			<ul class="menu">		
-
-				<li><a href="index.html">work</a></li>
-				<li><a href="about.html">about</a></li>
-				<li><a href="resume.html">resume</a></li>
-
-  			</ul>
-	</header>
-<section class="container">
-    <!--     nav bar -->
+    <style>
+/*Desktop Query*/
+@media only screen and (min-width: 768px) {
+    .resumeImg {
+    /* background: black; */
+    width:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow: inset; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+}
 
 
+/*Tablet Query*/
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    .resumeImg {
+    /* background: pink; */
+    width:550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-    <!--       closing navbar  -->
-
-    <div style="width:80%; margin:0 auto;">
-		<div>
-
-	    <!--       closing home -->
-		<!-- <div id = "projects"></div> -->
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-	<header>
-		<p>&nbsp;</p>
-	</header>
-
-<!-- Grid -->
-<!--	<h4>My projects</h4>-->
+  }
+}
 
 
-	<header>
-		<h1>Hi there, I'm Loam.</h1>
-	</header>
+/*Mobile Query*/
+@media only screen and (max-width: 480px) {
+    .resumeImg {
+    /* background: red; */
+    width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+}
+ h2, h3{
+
+    margin-top: 10%;
+    text-align: center;
+    color: black;
+}
+ p{
+    /* place-items: center; */
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 50ch;
+    /* margin: 0 0 15px; */
+    
+}
 
 
-	<!-- <div class="grid-container">
-		<div>
-			<img src="assets/images/loam_sam.jpg" alt = "loam picture">
-		</div>
-		<div>
-			<p>I am a UX/UI Developer based in Rochester, NY. 
-            I love to create experiences that are built for everyone to use. I've always loved art, and technology eventually became a big part of my life.
-    As my interest in the digital world has continued to grow, I became interested in integrating design into front-end development.<br><br>
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img class="logoImg" src="assets/images/LS logo.png"
+      /></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+
+        <li><a href="index.html">work</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="resume.html">resume</a></li>
+
+      </ul>
+    </header>
+    <!-- <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> -->
+
+    <div class="loam">
+        <h2>Hi there, I'm Loam.</h2>
+		<p>I am a UX/UI Developer based in Rochester, NY. 
+			I love to create experiences that are built for everyone to use. I've always loved art, and technology eventually became a big part of my life.
+	As my interest in the digital world has continued to grow, I became interested in integrating design into front-end development.<br><br>
 	In my free time, I enjoy baking and trying new recipes. Since I am a perfectionist, I find accurate baking
 	measurements very satisfying. I'm always on the lookout for the best dessert whenever I visit a new city.
 	I also love hiking and walking with my dog on the weekends.
-			</p>
-		</div> -->
+		</p>
+		<img class="resumeImg" src="/assets/images/loam_sam.jpg">
 
-		<div class="cards">
-			<div class="card">
-				<img src="assets/images/loam_sam.jpg" alt = "loam picture">
-				<p>I am a UX/UI Developer based in Rochester, NY. 
-					I love to create experiences that are built for everyone to use. I've always loved art, and technology eventually became a big part of my life.
-			As my interest in the digital world has continued to grow, I became interested in integrating design into front-end development.<br><br>
-			In my free time, I enjoy baking and trying new recipes. Since I am a perfectionist, I find accurate baking
-			measurements very satisfying. I'm always on the lookout for the best dessert whenever I visit a new city.
-			I also love hiking and walking with my dog on the weekends.
-				</p>
-			</div>
-			<div class="card">
-				<h6>Let's connect together!</h6>
-				<a href="mailto:ls8776@rit.edu" onClick="javascript:window.open('mailto:ls8776@rit.edu', 'my-window');event.preventDefault()">
-					<ion-icon name="mail-outline"></ion-icon>
-				</a>
+    </div>
+
+	<!-- <div class="connect">
+		<h2>Feel free to connect!</h2>
+		<a href="mailto:ls8776@rit.edu" onClick="javascript:window.open('mailto:ls8776@rit.edu', 'my-window');event.preventDefault()">
+			<ion-icon name="mail-outline"></ion-icon>
+		</a>
 
 
-				<a href="https://www.linkedin.com/in/loam-shin-6a7215208">
-					<ion-icon name="logo-linkedin"></ion-icon>
-				</a>	
+		<a href="https://www.linkedin.com/in/loam-shin-6a7215208">
+			<ion-icon name="logo-linkedin"></ion-icon>
+		</a>	
 
-			</div>
-		</div>
+	</div> -->
 
 
 
-	
-		<!-- <footer>
-            
-			<p class = "copyright">Loam Shin 2021</p>
-		</footer> -->
-</section>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-</body>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+  </body>
 </html>
