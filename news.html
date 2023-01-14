@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--	/* Complete Viewport Command */ -->
+    <title>My resume</title>
+    <link rel="stylesheet" href="assets/css/projects.css" />
+    <style>
+/*Desktop Query*/
+@media only screen and (min-width: 768px) {
+    .resumeImg {
+    /* background: black; */
+    width:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow: inset; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+}
+
+
+/*Tablet Query*/
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    .resumeImg {
+    /* background: pink; */
+    width:550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+}
+
+
+/*Mobile Query*/
+@media only screen and (max-width: 480px) {
+    .resumeImg {
+    /* background: red; */
+    width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+}
+ h2, h3{
+
+    margin-top: 10%;
+    text-align: center;
+    color: black;
+}
+ p{
+    /* place-items: center; */
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 50ch;
+    /* margin: 0 0 15px; */
+    
+}
+
+
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img class="logoImg" src="assets/images/LS logo.png"
+      /></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <!--	 			<li><a href="index.html">home</a></li>-->
+        <li><a href="index.html">work</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="resume.html">resume</a></li>
+        <!-- <li><a href="#connect">connect</a></li> -->
+      </ul>
+    </header>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+    <div class="news">
+        <h2>University News Redesign</h2>
+        <p>
+            A simple re-design of my college news page,
+            so that students can get the accurate information without frustration.
+        </p>
+        <div style="width: 80%; margin: 0 auto">
+            <img class="resumeImg" src="/assets/images/news.png">
+        </div>
+    </div>
+
+    <div class="process">
+        <h2>Process</h2>
+
+        <p>
+            See my process below.
+        </p>
+        <img class="resumeImg" src="/assets/images/news-wf.png"/>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+        <img class="resumeImg" src="/assets/images/roughnews.png"/>
+    </div>
+
+
+    <div class="takeaway">
+        <h2>My takeaway</h2>
+
+        <p>
+            No matter how perfect your design is, you won't know if it 
+            works unless you test it out. What is intuitive to you might 
+            not so intuitive to an user. Test it out again and again until
+            it makes sense to an user.
+        </p>
+
+    </div>
+
+
+    <!-- <p>&nbsp;&nbsp;&nbsp;&nbsp;</p> -->
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+  </body>
+</html>
