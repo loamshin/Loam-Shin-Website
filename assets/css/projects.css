@@ -373,9 +373,9 @@ a:link {
 }
 
 /* visited link */
-a:visited {
+/* a:visited {
   color: rgb(165, 165, 165);
-}
+} */
 
 /* mouse over link */
 a:hover {
